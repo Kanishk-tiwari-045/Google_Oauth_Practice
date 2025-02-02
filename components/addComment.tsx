@@ -44,7 +44,7 @@ export const AddComment = ({ tweet }: AddCommentProps) => {
       <textarea
         // value={text}
         // onChange={(e) => setText(e.target.value)}
-        className="w-full border text-xl border-gray-300 rounded p-2 mb-2 bg-transparent border-transparent outline-none focus:outline-none"
+        className="w-full border text-l border-gray-300 rounded p-2 mb-2 bg-transparent border-transparent outline-none focus:outline-none"
         placeholder="Add a comment..."
         name="text"
       />

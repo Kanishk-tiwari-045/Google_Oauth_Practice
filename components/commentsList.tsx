@@ -18,7 +18,7 @@ export function CommentsList({
           />
           <div className="ml-4">
             <h4 className="text-xl font-bold">{comment.author.name}</h4>
-            <p className="text-xl">{comment.text}</p>
+            <p className="text-l">{comment.text}</p>
           </div>
         </div>
       ))}

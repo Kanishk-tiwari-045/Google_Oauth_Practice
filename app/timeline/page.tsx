@@ -17,8 +17,8 @@ export default async function Page() {
 
   return (
     <>
-      {session?.user?.image && <img src={session?.user?.image} alt="" />}
-      <h3>This is your timeline: {session?.user?.email}</h3>
+      {session?.user?.image && (<img src={session?.user?.image} alt="Profile" className="w-100 h-100 rounded-full object-cover"/>)}
+      <h3 className="mt-2">This is your timeline: {session?.user?.email}</h3>
       {tweets.map((tweet: any, idx: number) => (
         <Tweet key={idx} tweet={tweet} />
       ))}

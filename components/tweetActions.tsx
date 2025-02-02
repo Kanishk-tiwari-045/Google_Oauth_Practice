@@ -2,9 +2,7 @@
 
 import {
   FaRegComment,
-  FaRetweet,
   FaRegHeart,
-  FaRegShareSquare,
 } from "react-icons/fa";
 
 import { AiOutlineRetweet } from "react-icons/ai";

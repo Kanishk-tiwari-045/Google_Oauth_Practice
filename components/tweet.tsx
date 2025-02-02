@@ -36,7 +36,7 @@ export default function Tweet({ tweet, isTweetPage }: TweetProps) {
                 {timeAgo(new Date(tweet.createdAt))}
               </p>
             </div>
-            <p className="mt-2 text-white font-base text-2xl">{tweet.text}</p>
+            <p className="mt-2 text-white font-base text-l">{tweet.text}</p>
             <div className="flex space-x-6 mt-3 text-gray-500">
               <TweetActions />
             </div>
