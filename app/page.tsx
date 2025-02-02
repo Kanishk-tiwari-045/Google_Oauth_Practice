@@ -1,6 +1,4 @@
 import Image from "next/image";
-import googleLogo from "@/public/google.png";
-import githubLogo from "@/public/github.png";
 import {
   CredentialsSignInButton,
   GithubSignInButton,
